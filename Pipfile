@@ -7,6 +7,9 @@ name = "pypi"
 django = "~=3.2.6"
 django-crispy-forms = "==1.11.1"
 environs = {version = "==8.0.0", extras = ["django"]}
+psycopg2-binary = "==2.9.1"
+whitenoise = "==5.1.0"
+gunicorn = "==19.9.0"
 
 [dev-packages]
 
